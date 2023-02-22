@@ -1,0 +1,49 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cucumberautocomplete.steps": [
+        "src/test/java/nl/rivm/dvp/nhs/business/scenariosteps/*.java",
+    ],
+    "cucumberautocomplete.formatConfOverride": {
+        "Functionaliteit:": 0,
+        "Voorbeelden": 2,
+        "Voorbeeld": 1,
+        "Scenario:": 1,
+        "Achtergrond:": 1,
+        "Abstract Scenario:": 1,
+        "Stel": 2,
+        "Wanneer": 2,
+        "En": 2,
+        "Maar": 2,
+        "Gegeven": 2,
+        "Als": 2,
+        "Dan": 2,
+    },
+    "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then|And|Gegeven|Als|Dan|En|Stel)\\(",
+    "cucumberautocomplete.syncfeatures": "src/test/resources/features/*feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": true,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.onTypeFormat": true,
+    "cucumberautocomplete.stepRegExSymbol": "",
+
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.customParameters": [
+        
+        {
+            "parameter":"{ab}",
+            "value":"(a|b)"
+        },
+        {
+            "parameter":"<([a..z]+)>",
+            "value":"(1)"
+        },
+    ],
+    "cucumberautocomplete.skipDocStringsFormat": true,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    },
+    "cucumberautocomplete.pureTextSteps": true
+}
